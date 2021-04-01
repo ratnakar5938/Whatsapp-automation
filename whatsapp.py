@@ -24,4 +24,5 @@ while True:
         textinput.send_keys(Keys.RETURN)
     end = input("Enter exit to exit the program else just press enter: ")
     if end == "exit":
+        driver.close()
         break
